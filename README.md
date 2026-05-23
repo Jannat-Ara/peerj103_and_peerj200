@@ -42,7 +42,7 @@ The dataset is provided in **CSV format** with the following structure:
 
 ### Review Type Values
 - `Human`
-- `Generic` *(available only in peerJ103 dataset)*
+- `Generic` *(available only in peerj103 dataset)*
 - `AI-Generated`
 
 ## 🧩 Funding and Supervision- 
