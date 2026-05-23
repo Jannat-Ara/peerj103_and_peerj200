@@ -1,4 +1,4 @@
-﻿# 🧾 PeerJ-103 Dataset (Human vs. AI-Generated vs. Generic)
+﻿# 🧾 PeerJ-103 and PeerJ-400 Review Datasets
 
 ## 📘 Overview
 This repository contains a **curated dataset of peer reviews** developed as part of a **funded research project under the supervision of Dr. Junaid Shuja**, Tenure Track Assistant Professor, Department of Computer Science, Southeast Missouri State University, USA.  
@@ -18,6 +18,18 @@ This results in a **tripartite dataset** containing:
 
 Together, these samples enable systematic research on linguistic, structural, and semantic distinctions between **human and AI-generated peer reviews**.
 
+# 📊 PeerJ-400 Dataset
+
+## 📘 Dataset Description
+This repository also includes the **PeerJ-400 dataset**, which contains a larger collection of peer reviews curated for comparative analysis between **human-written** and **AI-generated reviews**.
+
+The dataset includes:
+- **400 Human-Written Reviews** — collected from published PeerJ articles
+- **400 AI-Generated Reviews** — generated using modern large language models such as **DeepSeek** and **GPT-4o**
+
+Unlike the PeerJ-103 dataset, the PeerJ-400 dataset does **not** include generic machine-generated reviews.
+All files are provided in CSV format with consistent structure and annotations.
+
 ## 🗂️ Data Format
 The dataset is provided in **CSV format** with the following structure:
 
@@ -26,7 +38,12 @@ The dataset is provided in **CSV format** with the following structure:
 | **Article Title** | Title of the research paper associated with the review |
 | **Abstract**      | Abstract of the original paper|
 | **Review**        | Full text of the peer review |
-| **Review Type**   | Indicates the type of review: `Human`, `Generic`, or `AI-Generated` |
+| **Review Type**   | Indicates the type of review |
+
+### Review Type Values
+- `Human`
+- `Generic` *(available only in peerJ103 dataset)*
+- `AI-Generated`
 
 ## 🧩 Funding and Supervision- 
 This dataset was developed as part of a **funded research project: (GRFC, SEMO)** under the supervision of **Dr. Junaid Shuja**.
