@@ -1,4 +1,4 @@
-﻿# 🧾 PeerJ-103 and PeerJ-400 Review Datasets
+﻿# 🧾 PeerJ-103 and PeerJ-200 Review Datasets
 
 ## 📘 Overview
 This repository contains a **curated dataset of peer reviews** developed as part of a **funded research project under the supervision of Dr. Junaid Shuja**, Tenure Track Assistant Professor, Department of Computer Science, Southeast Missouri State University, USA.  
@@ -24,10 +24,10 @@ Together, these samples enable systematic research on linguistic, structural, an
 This repository also includes the **PeerJ-400 dataset**, which contains a larger collection of peer reviews curated for comparative analysis between **human-written** and **AI-generated reviews**.
 
 The dataset includes:
-- **400 Human-Written Reviews** — collected from published PeerJ articles
-- **400 AI-Generated Reviews** — generated using modern large language models such as **DeepSeek** and **GPT-4o**
+- **200 Human-Written Reviews** — collected from published PeerJ articles
+- **200 AI-Generated Reviews** — generated using modern large language models such as **DeepSeek** and **GPT-4o**
 
-Unlike the PeerJ-103 dataset, the PeerJ-400 dataset does **not** include generic machine-generated reviews.
+Unlike the PeerJ-103 dataset, the PeerJ-200 dataset does **not** include generic machine-generated reviews.
 All files are provided in CSV format with consistent structure and annotations.
 
 ## 🗂️ Data Format
