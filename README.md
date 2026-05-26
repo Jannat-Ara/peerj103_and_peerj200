@@ -18,10 +18,10 @@ This results in a **tripartite dataset** containing:
 
 Together, these samples enable systematic research on linguistic, structural, and semantic distinctions between **human and AI-generated peer reviews**.
 
-# 📊 PeerJ-400 Dataset
+# 📊 PeerJ-200 Dataset
 
 ## 📘 Dataset Description
-This repository also includes the **PeerJ-400 dataset**, which contains a larger collection of peer reviews curated for comparative analysis between **human-written** and **AI-generated reviews**.
+This repository also includes the **PeerJ-200 dataset**, which contains a larger collection of peer reviews curated for comparative analysis between **human-written** and **AI-generated reviews**.
 
 The dataset includes:
 - **200 Human-Written Reviews** — collected from published PeerJ articles
